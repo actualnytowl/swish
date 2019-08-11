@@ -14,6 +14,6 @@ int main()
         mrp=truncf(mrp-(mrp*(disc/100)));
     }
     
-    printf("%.2f",totalcost);
+    printf("%.0f",totalcost);
     return 0;
 }
